@@ -4,7 +4,7 @@ import { getEnvVariables } from '../helpers/getEnvVariables'
 const { VITE_API_URL, VITE_API_URL_DEV } = getEnvVariables()
 
 const todoApi = axios.create({
-    //baseURL: VITE_API_URL
+    // baseURL: VITE_API_URL
     baseURL: VITE_API_URL_DEV
 })
 
